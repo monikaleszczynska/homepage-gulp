@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700&display=swap&subset=latin-ext");
 html {
   line-height: 1.15;
   /* 1 */
@@ -315,8 +316,52 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
-body {
-  color: #F9C802;
-  background: #000; }
+.header__content {
+  font-family: 'Lato'; }
+
+.header__picture {
+  height: 400;
+  max-width: 1250px;
+  margin-left: 15px;
+  display: block; }
+
+.header__title {
+  font-family: 'Roboto Slab', serif; }
+
+.navigation__list {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  height: 80px;
+  weight: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-family: 'Lato'; }
+
+.navigation__item {
+  display: block;
+  margin: 0 16px;
+  margin-top: 10px;
+  margin-right: 53px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+.about__picture {
+  width: 100%;
+  max-width: 110px;
+  display: block;
+  float: left;
+  margin: 5px 16px 16px 0px; }
 
 /*# sourceMappingURL=main.css.map */
