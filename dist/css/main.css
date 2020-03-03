@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black|Lato:400,700|Press+Start+2P&display=swap&subset=latin-ext");
 html {
   line-height: 1.15;
   /* 1 */
@@ -316,18 +316,6 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
-.header__content {
-  font-family: 'Lato'; }
-
-.header__picture {
-  height: 400;
-  max-width: 1250px;
-  margin-left: 15px;
-  display: block; }
-
-.header__title {
-  font-family: 'Roboto Slab', serif; }
-
 .navigation__list {
   list-style: none;
   margin: auto;
@@ -357,11 +345,31 @@ html {
       -ms-flex-align: start;
           align-items: flex-start; }
 
+.header__title {
+  background-image: url("../img/header3b.png"); }
+
+.header__content {
+  font-family: 'Lato'; }
+
+.header__picture {
+  height: 400;
+  max-width: 1250px;
+  margin-left: 15px;
+  display: block; }
+
+.header__title {
+  font-family: 'Roboto Slab', serif; }
+
 .about__picture {
   width: 100%;
   max-width: 110px;
   display: block;
   float: left;
   margin: 5px 16px 16px 0px; }
+
+@media (max-width: 640px) {
+  .grid__joanna, .grid__rita, .grid__roman, .grid__samuraj {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr; } }
 
 /*# sourceMappingURL=main.css.map */

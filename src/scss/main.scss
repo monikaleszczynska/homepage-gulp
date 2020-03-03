@@ -1,6 +1,7 @@
 @import "_normalize";
 @import "_variables";
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Lato:400,700|Press+Start+2P&display=swap&subset=latin-ext');
+
 
 html {
   box-sizing: border-box;
@@ -12,34 +13,13 @@ html {
 
 body {
   
-  
 }
-
-
-
-.header__content{
-    font-family: 'Lato';
-}
-
-.header__picture{
-  height: 400;
-    max-width: 1250px;
-    margin-left: 15px;
-
-    display: block;
-}
-
-.header__title{
-    font-family: 'Roboto Slab', serif;
-    
-}
-
-
-
 .site__header {
 
 }
+.navigation {
 
+}
 .navigation__list {
     list-style: none;
     margin: auto;
@@ -63,6 +43,40 @@ body {
 
 
 }
+.site__header {
+}
+
+.header__title{
+  background-image: url('../img/header3b.png');
+}
+.header__content{
+    font-family: 'Lato';
+}
+
+.header__picture{
+  height: 400;
+    max-width: 1250px;
+    margin-left: 15px;
+
+    display: block;
+}
+
+.header__title{
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.about__programmer{
+
+}
+.about__header{
+
+}
+.about__paragraph {
+
+}
+
+
 
 .about__picture {
     width: 100%;
@@ -71,4 +85,50 @@ body {
     float: left;
     margin: 5px 16px 16px 0px;
     
+}
+
+.joanna{
+
+}
+.rita {
+
+}
+.steps {
+
+}
+.list {
+
+}
+.roman {
+
+}
+.samuraj {
+
+}
+.interview__header {
+
+}
+.interview__paragraph {
+
+}
+
+.grid__joanna {
+
+}
+
+.grid__rita {
+
+}
+.grid__roman {
+
+}
+
+.grid__samuraj {
+
+}
+
+@media (max-width: 640px) {
+  .grid__joanna, .grid__rita, .grid__roman, .grid__samuraj {
+      grid-template-columns: 1fr;
+  }
 }
